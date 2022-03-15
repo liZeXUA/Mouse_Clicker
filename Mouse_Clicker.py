@@ -16,7 +16,7 @@ except:
 mouse = Controller()
 
 for x in range(i+1):
-    mouse.click(Button.left, i)
+    mouse.click(Button.left, 1)
     time.sleep(j)
 
 print("finished")
